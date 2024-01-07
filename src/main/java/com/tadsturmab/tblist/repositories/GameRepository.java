@@ -1,9 +1,14 @@
 package com.tadsturmab.tblist.repositories;
+import java.util.List;
+
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
 import com.tadsturmab.tblist.entities.Game;
+import com.tadsturmab.tblist.projections.GameMinProjection;
 
 public interface GameRepository extends JpaRepository<Game, Long> {
-	/*
+	
 	@Query(nativeQuery = true, value = """
 			SELECT tb_game.id, tb_game.title, tb_game.game_year AS `year`, tb_game.img_url AS imgUrl,
 			tb_game.short_description AS shortDescription, tb_belonging.position
@@ -13,5 +18,5 @@ public interface GameRepository extends JpaRepository<Game, Long> {
 			ORDER BY tb_belonging.position
 				""")
 	List<GameMinProjection> searchByList(Long listId);
-*/
+
 }
