@@ -14,11 +14,11 @@ Prepare-se para desvendar o universo dos jogos com a TBList! 🚀🎉
 
 ## Modelo conceitual
 
-![Modelo Conceitual](.github/resources/tblist-model.png)
+![Modelo Conceitual](.github/tabsturmab/resources/tblist-model.png)
 
 ## Padrão camadas adotado
 
-![Padrão camadas](.github/resources/tblist-padrao-camadas.jpg)
+![Padrão camadas](.github/tabsturmab/resources/tblist-padrao-camadas.jpg)
 
 ## Endpoints
 
@@ -26,19 +26,19 @@ Prepare-se para desvendar o universo dos jogos com a TBList! 🚀🎉
 ```
 GET /games
 ```
-![Get Games](.github/resources/getGames.png)
+![Get Games](.github/tabsturmab/resources/getGames.png)
 
 ### Buscar jogo por id
 ```
 GET /games/{id}
 ```
-![Get Games By Id](.github/resources/getGamesById.png)
+![Get Games By Id](.github/tabsturmab/resources/getGamesById.png)
 
 ### Busca uma lista por meio de seu ID mostrando quais jogos estão dentro desta categoria
 ```
 GET /lists/{id}/games
 ```
-![Get Games By List Id](.github/resources/getGamesByListId.png)
+![Get Games By List Id](.github/tabsturmab/resources/getGamesByListId.png)
 
 ## Tecnologias utilizadas
 
